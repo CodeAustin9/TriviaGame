@@ -1,0 +1,51 @@
+body{
+  background-image: url(http://www.kinyu-z.net/data/wallpapers/186/1353883.jpg);
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 25px;
+}
+
+header{
+	margin-bottom: 20px;
+	font-size: 45px;
+	color: red;
+	position: relative;
+}
+
+.btn-primary,.reset{
+	background-color: #313477;
+	color: white;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 30px;
+	padding: 20px;
+	margin-top: 100px;
+}
+.btn-primary:hover, .reset:hover{
+	background-color: blue;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	height: 100%;
+	width: 700px;
+}
+
+h2, #message, #finalMessage{
+	font-family: 'Alfa Slab One', cursive;
+}
+
+.thisChoice:hover{
+	background-color: green;
+	color: white;
+	padding: 10px;
+}
+
+
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
